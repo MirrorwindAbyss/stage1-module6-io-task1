@@ -19,6 +19,6 @@ public class FileReader {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return new Profile();
+        return profile;
     }
 }
